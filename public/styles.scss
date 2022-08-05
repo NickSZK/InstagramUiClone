@@ -1,0 +1,15 @@
+@import '../src/scss/colors';
+@import '../src/scss/global';
+@import '../src/scss/tipography';
+@import '../src/scss/align';
+@import '../src/scss/spacing';
+@import '../src/scss/button';
+
+@import '../src/components/Header/Header';
+@import '../src/components/Footer/Footer';
+@import '../src/components/UserConversation/UserConversation';
+@import '../src/pages/Login/Login';
+@import '../src/pages/Register/Register';
+@import '../src/pages/Home/Home';
+@import '../src/pages/Direct/Direct';
+@import '../src/pages/Error/Error';

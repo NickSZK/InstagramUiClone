@@ -1,0 +1,16 @@
+.errorContainer {
+   height: calc(100vh - 106px);
+
+}
+.errorContainer > div {
+   height: 100%;
+}
+
+.errorContainer > div > div > h4 {
+   color: var(--black);
+}
+
+.errorContainer > div > div > p a {
+   color: var(--fb);
+   text-decoration: none;
+}

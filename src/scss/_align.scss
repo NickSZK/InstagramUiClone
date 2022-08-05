@@ -1,0 +1,20 @@
+.f { display: flex; }
+.wrap { flex-wrap: wrap; align-items: center; }
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sbt {
+   justify-content: space-between;
+}
+
+.sar {
+   justify-content: space-around;
+}
+
+.column {
+   flex-direction: column;
+}

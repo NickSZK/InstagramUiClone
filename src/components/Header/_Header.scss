@@ -1,0 +1,54 @@
+header.container {
+   background-color: var(--white);
+   width: 100vw;
+   padding: 0 15%;
+}
+
+.headerContainer {
+   width: 100%;
+   padding: 8px 0px;
+}
+
+.headerContainer div > img {
+   margin-top: 5px;
+}
+
+.headerContainer input {
+   width: 236px;
+   height: 28px;
+   padding: 12px 0 12px 16px;
+   border-radius: 4px;
+   border: none;
+   background-color: #EFEFEF;
+   font-size: 15px;
+}
+
+.headerContainer div a .headerImg {
+   width: 22px;
+   height: 22px;
+   border-radius: 25px;
+}
+
+@media (max-width: 850px) {
+   .headerContainer input {
+      width: 180px;
+   }
+}
+
+@media (max-width: 775px) {
+   .headerContainer input {
+      width: 150px;
+   }
+}
+
+@media (max-width: 725px) {
+   .headerContainer input {
+      width: 120px;
+   }
+}
+
+@media (max-width: 720px) {
+   .headerContainer input {
+      display: none;
+   }
+}

@@ -1,0 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+   border: 1px solid var(--border-color);
+}
+
+.news {
+   // background-color: linear-gradient(to bottom, rgba(222,0,70,1) 0%, rgba(247,164,75,1) 100%);
+   // border: 1px solid linear-gradient( rgba(222,0,70,1), rgba(247,164,75,1));
+   width: 56px;
+   height: 56px;
+   border: 1px solid #000;
+   border-radius: 50%;
+   // Align: Inside;
+   // Width: 2.5px;
+}
+
+.border { border: 1px solid var(--border-color) } ;
+.border2 { border: 1px solid #F00 }
+.border3 { border: 1px solid slateblue }
+.border4 { border: 1px solid limegreen }
+
+button, input { outline: none; }
+

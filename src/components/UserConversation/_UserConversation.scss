@@ -1,0 +1,15 @@
+.UserConversation > img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.UserConversation > div span {
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.UserConversation > div p {
+   color: var(--border-color);
+   font-size: 15px;
+}
