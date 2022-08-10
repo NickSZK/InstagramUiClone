@@ -1,0 +1,155 @@
+.containerRegister {
+   width: 350px;
+   margin: 44px 40px 0 40px;
+}
+
+.logoRegister {
+   width: 175px;
+   height: 51px;
+}
+
+.logoRegisterDesc {
+   color: rgba(142,142,142);
+   font-size: 17px;
+   font-weight: 600;
+   line-height: 20px;
+   margin: 0 40px 10px;
+   text-align: center;
+}
+
+.logoInsta img {
+   margin-bottom: 16px;
+}
+
+.logoInsta a {
+   background-color: var(--blue);
+   border-radius: 4px;
+   padding: 6px 0px;
+   width: 270px;
+
+   span {
+      color: var(--white);
+
+      img { 
+         margin-bottom: 0;
+         margin-right: 5px;
+         height: 16px;
+         width: 16px;
+      }
+   }
+}
+
+.formRegister input {
+   width: 270px;
+   padding: 8px;
+   border-radius: 4px;
+   border: none;
+   background-color: var(--white-dark);
+}
+
+.formRegister div {
+   border-radius: 4px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.formRegister input[type=submit] {
+   background-color: var(--blue);
+   padding: 5px;
+}
+
+.fDescription {
+   color: var(--gray);
+   width: 270px;
+
+   p {
+      width: 100%;
+      font-size: 12.5px;
+      text-align: center;
+
+
+      span {
+         font-weight: 600;
+      }
+   }
+}
+
+.registerUser {
+   background-color: var(--btnDisable);
+   border-radius: 4px;
+   padding: 6px 0px;
+   width: 270px;
+
+   span {
+      color: var(--white);
+   }
+}
+
+div > .fSubmit {
+   width: 100%;
+}
+
+.fSubmit {
+   font-size: 18px;
+   color: var(--white);
+   border: none;
+   border-radius: 4px;
+}
+
+.fSubmitDisable {
+   background-color: var(--btnDisable);
+}
+
+.fSubmitActive {
+   background-color: var(--btn);
+
+   &:hover {
+      cursor: pointer;
+   }
+} 
+
+.hrowsRegister {
+   width: 100%;
+   color: var(--gray);
+   padding: 0 40px;
+   margin-top: -16px;
+}
+
+.hrow {
+   height: 1px;
+   width: 104px;
+   background-color: var(--gray);
+}
+
+.fb button{ 
+   outline: none;
+   color: var(--fb);
+   background-color: transparent;
+   border: none;
+   font-weight: bold;
+}
+
+.fb button img {
+   width: 20px;
+   height: 20px;
+   margin-right: 8px;
+}
+
+.fb a {
+   text-decoration: none;
+   color: var(--fb);
+   font-size: 12px;
+}
+
+.containerRegister {
+   width: 350px;
+   margin-top: 12px;
+}
+
+.containerRegister a {
+   text-decoration: none;
+   color: var(--blue);
+   font-weight: bold;
+}
